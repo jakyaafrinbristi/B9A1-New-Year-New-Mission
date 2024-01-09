@@ -333,12 +333,20 @@ body {
 .gift-img {
     max-width: 424px;
     margin: 0 100px;
+    position: relative;
+    
 
 
 }
 
 .gift-img img {
     width: 100%;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+.gift-img:hover img {
+    transform: scale(1.1);
 
 
 }
@@ -454,6 +462,7 @@ body {
 }
 
 .footer hr {
+    background: rgba(255, 255, 255, 0.15);
     margin: 0 100px;
 }
 
