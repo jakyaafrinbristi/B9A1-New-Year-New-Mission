@@ -135,7 +135,7 @@ body {
 }
 
 .midnight-party-img {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/year-img.png"), url("../images/Vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/year-img.png"), url("../images/vectorrr.png");
     background-repeat: no-repeat;
     border-radius: 16px;
     background-position: top right;
