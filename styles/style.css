@@ -16,7 +16,7 @@ body {
 /* banner section */
 
 .banner-img {
-    background-image: url('../images/bg-img.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/bg-img.png');
     background-repeat: no-repeat;
     margin: 80px 40px;
     background-position: cover;
@@ -92,7 +92,10 @@ body {
     margin-top: 20px;
     ;
 }
+.holidays-img img{
+    margin-bottom: 100px;
 
+}
 /* <!-- holiday section end--> */
 /* midnight party */
 .midnight-party-text {
@@ -128,14 +131,18 @@ body {
 }
 
 .midnight-party-img {
-    background-image: url("../images/Vectorrr.png"), url("../images/year-img.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/year-img.png"), url("../images/Vectorrr.png");
+    background-repeat: no-repeat;
 
-    background-position: bottom right, top right;
+    background-position: top right;
+  
 
 }
 
+
 /* midnight party end */
 .new-park {
+   
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
@@ -157,15 +164,71 @@ body {
     font-weight: 600;
     text-transform: capitalize;
 }
+.gift .gift-text {
+    padding: 0 150px;
+    
+}
+
+.gift .gift-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.gift .gift-text h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;;
+    text-transform: capitalize;
+}
+
+.gift .gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 800px;
+  
+}
+
+
+.gift-img{
+    max-width: 424px;
+    margin: 0 100px;
+   
+
+}
+.gift-img img{
+    width: 100%;
+   
+ 
+}
+
+.gift-img-one,
+.gift-img-two {
+    padding: 0 50px;
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+    border-radius: 16px;
+
+}
+
 
 
 .footer {
     width: 1600px;
     height: 500px;
     background-color: #070211;
-    
+
 }
-.footer-first-part,.footer-third-part{
+
+.footer-first-part,
+.footer-third-part {
     display: flex;
     justify-content: space-around;
     padding: 20px 100px;
@@ -174,28 +237,33 @@ body {
 
 
 
-.footer-text,.footer-call, .footer-website, .footer-third-part{
+.footer-text,
+.footer-call,
+.footer-website,
+.footer-third-part {
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-  
-}
-.footer-second-part{
-    text-align: center;
-    padding-top: 70px;
-     
-}
-.footer-second-part img{
-    gap:10px;
-    margin-bottom:100px ;
+
 }
 
-.footer hr{
+.footer-second-part {
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+.footer-second-part img {
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.footer hr {
     margin: 0 100px;
 }
 
-
-
-
-
+/* .gift{
+    padding: 100px 100px;
+   
+ } */
