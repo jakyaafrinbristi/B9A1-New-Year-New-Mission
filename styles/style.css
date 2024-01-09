@@ -11,6 +11,7 @@ body {
     margin: 0 auto;
     height: 600px;
     max-width: 1300px;
+
 }
 
 /* banner section */
@@ -20,6 +21,7 @@ body {
     background-repeat: no-repeat;
     margin: 80px 40px;
     background-position: cover;
+    border-radius: 16px;
 }
 
 .banner-text h3 {
@@ -135,7 +137,7 @@ body {
 .midnight-party-img {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/year-img.png"), url("../images/Vectorrr.png");
     background-repeat: no-repeat;
-
+    border-radius: 16px;
     background-position: top right;
 
 
@@ -184,9 +186,120 @@ body {
 
 /* new park end */
 
+
+
+/* best offer section start */
+.best-offer {
+    display: flex;
+
+}
+
+.best-offer-first-text,
+.best-offer-second-text {
+    width: 400px;
+    padding: 50px;
+
+}
+
+.best-offer-first-text p,
+.best-offer-second-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.best-offer .best-offer-first-text h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.best-offer-second-text h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer-first-text h1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer-img {
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+
+
+/* best offer section end */
+/* holiday sale start */
+.holiday-sale-text {
+    text-align: center;
+    margin: 50px;
+}
+
+.holiday-sale-text h1 {
+    color: #070211;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+#holiday-sale-id {
+    color: #F00;
+}
+
+.holiday-sale-text p {
+    font-size: 20px;
+    color: rgba(7, 2, 17, 0.60);
+    font-weight: 500;
+    padding: 0 100px;
+    width: 1000px;
+  
+}
+.holidays-sale-img{
+  
+    background-image: url("../images/rectangle2.png"),url("../images/girl.png");
+    background-repeat: no-repeat;
+    background-position:bottom, top right;
+    position: relative;
+    background-size: 100% ,30%;
+    margin: 0 100px;
+}
+
+.holidays-sale-img .img-one{
+    width: 400px;
+  
+}
+.holidays-sale-img .img-two{
+    width: 200px;
+    position: absolute;
+    left: 60%;
+    
+}
+
+/* holiday sale end */
+
+
 /* gift section start */
+.gift{
+    margin: 250px 0px;
+}
 .gift .gift-text {
     padding: 0 150px;
+   
 
 }
 
@@ -204,7 +317,6 @@ body {
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-    ;
     text-transform: capitalize;
 }
 
@@ -243,64 +355,64 @@ body {
 
 /* gift section end */
 
-/* best offer section start */
-.best-offer {
+/* newsletter section start */
+
+.newsletter {
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 100px;
+}
+
+.newsletter-img img {
+    width: 150px;
+    padding-top: 100px;
+}
+
+.newsletter-text h1 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    padding-bottom: 10px;
+
+
+}
+
+.newsletter-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 100px;
+
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 20px auto;
     display: flex;
 
 }
 
-.best-offer-first-text,
-.best-offer-second-text {
-    width: 400px;
-    padding: 50px;
+.newsletter form input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 50px 0px 0px 50px;
 
 }
 
-.best-offer-first-text p,
-.best-offer-second-text p {
-    color: rgba(7, 2, 17, 0.60);
-    font-family: Inter;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
+.newsletter form button {
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    border: none;
+    width: 150px;
 }
 
-.best-offer .best-offer-first-text h3
-{
-    color: #F00;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-
-}
-
-.best-offer-second-text h1 {
-    color: #F00;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-.best-offer-first-text h1 {
-    color: #070211;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.best-offer-img {
-    border: 10px solid red;
-    border-radius: 50%;
-    padding: 30px;
-}
-
-
-
-/* best offer section end */
-
+/* newsletter section end */
 /* footer section start */
 
 .footer {
@@ -328,7 +440,6 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-
 }
 
 .footer-second-part {
