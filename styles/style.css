@@ -135,7 +135,7 @@ body {
 }
 
 .midnight-party-img {
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/year-img.png"), url(".././images/vectorrr.png");
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/year-img.png"), url("../images/midnight-party.png");
     background-repeat: no-repeat;
     border-radius: 16px;
     background-position: top right;
@@ -271,7 +271,7 @@ body {
 }
 .holidays-sale-img{
   
-    background-image: url(".././images/rectangle2.png"),url(".././images/girl.png");
+    background-image: url("../images/rectangle-2.png"),url("../images/girl-img.png");
     background-repeat: no-repeat;
     background-position:bottom, top right;
     position: relative;
